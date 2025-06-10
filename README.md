@@ -8,4 +8,4 @@ Tools include:
 - Color Converter
 - 
 
-To be built with React, TailwindCSS, ShadCN
+To be built with a framework, TailwindCSS, and UI library
