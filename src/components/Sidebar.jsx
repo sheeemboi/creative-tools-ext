@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="p-4 h-[calc(100vh-6rem)] w-72 fixed overflow-y-scroll scrollbar-none">
+    <nav className="p-4 h-[calc(100vh-6rem)] w-0 fixed overflow-y-scroll scrollbar-none md:w-72 ">
       <div className="bg-zinc-800 container h-full rounded-lg">
         <ol></ol>
       </div>
