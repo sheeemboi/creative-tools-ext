@@ -2,7 +2,7 @@ import Card from "./ui/Card";
 
 export default function Main() {
   return (
-    <main className="flex flex-col gap-13 p-6 flex-1 md:ml-72">
+    <main className="flex flex-col gap-13 p-6 flex-1">
       <section className="flex flex-col justify-center h-60 bg-zinc-400 w-full rounded-lg p-4">
         <h1>Hero Section</h1>
         <p>
