@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Sidebar from "./components/Sidebar";
+import BottomNav from "./components/BottomNav";
 import { useState } from "react";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Sidebar isOpen={isOpen} />
         <Main />
       </div>
+      <BottomNav />
     </>
   );
 }

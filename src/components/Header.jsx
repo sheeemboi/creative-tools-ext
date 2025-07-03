@@ -1,28 +1,5 @@
-import Hamburger from "./ui/Hamburger";
-import Search from "./ui/Search";
-import SearchIcon from "../assets/search_30dp.svg";
-import HomeIcon from "../assets/home_30dp.svg";
-
-function BottomNav() {
-  return (
-    <>
-      <section className="flex justify-between items-center h-18 w-full px-6 bg-zinc-800 fixed bottom-0 left-0 md:hidden">
-        <div className="flex justify-center items-center h-full w-18 rounded-lg">
-          {/* <span className="bg-zinc-400 h-8 w-8"></span> */}
-          <img src={HomeIcon} alt="Home" className="h-10" />
-        </div>
-        <div className="flex justify-center items-center h-full w-18 rounded-lg">
-          {/* <span className="bg-zinc-400 h-8 w-8"></span> */}
-          <img src={SearchIcon} alt="Search" className="h-10" />
-        </div>
-        <div className="flex justify-center items-center h-full w-18 rounded-lg">
-          {/* <span className="bg-zinc-400 h-8 w-8"></span> */}
-          <Hamburger displayClass="flex" sizeClass="h-8 w-8" />
-        </div>
-      </section>
-    </>
-  );
-}
+import Hamburger from "../ui/Hamburger";
+import Search from "../ui/Search";
 
 export default function Header({ hamburgerClick }) {
   return (
@@ -43,9 +20,6 @@ export default function Header({ hamburgerClick }) {
           <span className="h-full w-32 bg-zinc-600 rounded-md ml-auto md:w-48"></span>
         </section>
       </header>
-
-      {/* Mobile Footer */}
-      <BottomNav />
     </>
   );
 }
