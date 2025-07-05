@@ -7,7 +7,7 @@ import Hamburger from "../ui/Hamburger";
 export default function BottomNav() {
   const activeNavLink = ({ isActive }) => {
     return `flex justify-center items-center h-full flex-1 ${
-      isActive ? `bg-zinc-700` : `bg-none`
+      isActive ? `bg-zinc-700/30` : `bg-none`
     }`;
   };
   return (
