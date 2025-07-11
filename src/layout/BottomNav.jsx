@@ -16,11 +16,8 @@ export default function BottomNav() {
         <NavLink to="/" className={activeNavLink}>
           <img src={HomeIcon} alt="Home" className="h-10" />
         </NavLink>
-        <NavLink to="/test" className={activeNavLink}>
+        <NavLink to="/search" className={activeNavLink}>
           <img src={SearchIcon} alt="Search" className="h-10" />
-        </NavLink>
-        <NavLink to="/list" className={activeNavLink}>
-          <Hamburger displayClass="flex" sizeClass="h-8 w-8" />
         </NavLink>
       </section>
     </>

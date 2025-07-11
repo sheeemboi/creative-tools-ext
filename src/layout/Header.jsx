@@ -1,5 +1,7 @@
+import { NavLink } from "react-router-dom";
+
 import Hamburger from "../components/ui/Hamburger";
-import Search from "../components/ui/Search";
+import SearchBar from "../components/ui/SearchBar";
 import DarkMode from "../assets/theme/dark.svg";
 import ToolTip from "../assets/tooltip.svg";
 import GithubDark from "../assets/github/github-mark.svg";
@@ -19,20 +21,21 @@ export default function Header({ hamburgerClick }) {
   return (
     <>
       <header className="h-18 w-full bg-zinc-800 fixed top-0 left-0">
-        <div className="flex gap-8 items-center mx-auto max-w-7xl h-full py-3 px-6">
+        <div className="flex gap-8 items-center mx-auto max-w-7xl h-full py-3 px-6 md:px-0">
           {/* hamburger */}
           <Hamburger
             hamburgerClick={hamburgerClick}
-            displayClass="hidden md:flex"
-            sizeClass="h-9 min-w-9"
+            className="h-9 aspect-square"
           />
           {/* logo + name */}
-          <span className="group flex items-center justify-center p-2 max-w-28 h-full border-2 border-zinc-400 rounded-2xl md:w-40 cursor-pointer hover:bg-zinc-400 hover:border-0">
-            <span className="text-lg font-semibold text-zinc-400 select-none group-hover:text-zinc-800">
-              gwd-tools
+          <NavLink to="/">
+            <span className="group flex items-center justify-center p-2 max-w-28 h-full border-2 border-zinc-400 rounded-2xl md:w-40 cursor-pointer hover:bg-zinc-400 hover:border-0">
+              <span className="text-lg font-semibold text-zinc-400 select-none group-hover:text-zinc-800">
+                gwd-tools
+              </span>
             </span>
-          </span>
-          <Search />
+          </NavLink>
+          <SearchBar />
           {/* utility section */}
           <span className="h-full flex items-center justify-between min-w-30 ml-auto md:min-w-43">
             <UtilIcon src={DarkMode} alt="Toggle dark" />
