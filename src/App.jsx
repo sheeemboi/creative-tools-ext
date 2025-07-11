@@ -1,7 +1,7 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Sidebar from "./components/Sidebar";
-import BottomNav from "./components/BottomNav";
+import Header from "./layout/Header";
+import MainContent from "./layout/MainContent";
+import Sidebar from "./layout/Sidebar";
+import BottomNav from "./layout/BottomNav";
 import { useState } from "react";
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
       <Header hamburgerClick={toggleSidebar} />
       <div className="flex mx-auto max-w-7xl h-screen pt-18 md:pt-24">
         <Sidebar isOpen={isOpen} />
-        <Main />
+        <MainContent />
       </div>
       <BottomNav />
     </>

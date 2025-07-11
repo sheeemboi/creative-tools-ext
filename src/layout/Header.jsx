@@ -1,5 +1,5 @@
-import Hamburger from "../ui/Hamburger";
-import Search from "../ui/Search";
+import Hamburger from "../components/ui/Hamburger";
+import Search from "../components/ui/Search";
 
 export default function Header({ hamburgerClick }) {
   return (
