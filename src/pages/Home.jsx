@@ -4,10 +4,9 @@ export default function Home() {
   return (
     <>
       <section className="flex flex-col justify-center h-60 bg-zinc-400 w-full rounded-lg p-4">
-        <h1>Hero Section</h1>
+        <h1>Under Construction</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales
-          facilisis vestibulum.
+          Just wireframes, nothing to see here.
         </p>
       </section>
       <section className="flex flex-col gap-9 container h-fit w-full">
