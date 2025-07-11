@@ -1,8 +1,5 @@
-import Hamburger from "../ui/Hamburger";
-import Search from "../ui/Search";
-import GithubDark from "../assets/github/github-mark-white.svg";
-import ToolTip from "../assets/tooltip.svg";
-import DarkMode from "../assets/theme/dark.svg";
+import Hamburger from "../components/ui/Hamburger";
+import Search from "../components/ui/Search";
 
 export default function Header({ hamburgerClick }) {
   const UtilIcon = ({ href = "/", src, alt }) => {

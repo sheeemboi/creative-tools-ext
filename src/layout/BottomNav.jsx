@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 
-import SearchIcon from "../assets/search.svg";
-import HomeIcon from "../assets/home.svg";
-import Hamburger from "../ui/Hamburger";
+import SearchIcon from "../assets/search_30dp.svg";
+import HomeIcon from "../assets/home_30dp.svg";
+import Hamburger from "../components/ui/Hamburger";
 
 export default function BottomNav() {
   const activeNavLink = ({ isActive }) => {
