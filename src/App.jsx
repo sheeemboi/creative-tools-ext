@@ -29,19 +29,15 @@ function useTools() {
 }
 
 export default function App() {
+  const tools = useTools();
+  const isMobile = useMobileView();
   const [isOpen, setIsOpen] = useState(true);
 
   const toggleSidebar = () => setIsOpen((prev) => !prev);
 
-  const tools = useTools();
-
-  const isMobileView = useMobileView();
-
   useEffect(() => {
-    if(isMobileView) {
-      setIsOpen(false)
-    }
-  }, [isMobileView])
+    setIsOpen(!isMobile)
+  }, [isMobile]);
 
   return (
     <>
