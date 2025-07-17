@@ -1,4 +1,4 @@
-import SearchBar from "../components/ui/SearchBar.jsx";
+import SearchBar from "../components/SearchBar.jsx";
 
 export default function Search() {
   return (

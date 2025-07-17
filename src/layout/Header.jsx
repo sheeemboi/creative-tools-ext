@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-import Hamburger from "../components/ui/Hamburger";
-import SearchBar from "../components/ui/SearchBar";
+import Hamburger from "../components/Hamburger";
+import SearchBar from "../components/SearchBar";
 import DarkMode from "../assets/theme/dark.svg";
 import ToolTip from "../assets/tooltip.svg";
 import GithubDark from "../assets/github/github-mark.svg";
@@ -21,7 +21,7 @@ export default function Header({ hamburgerClick }) {
   return (
     <>
       <header className="h-18 w-full bg-zinc-800 fixed top-0 left-0">
-        <div className="flex gap-8 items-center mx-auto max-w-7xl h-full py-3 px-6 md:px-0">
+        <div className="flex gap-8 items-center mx-auto max-w-7xl h-full py-3 px-6">
           {/* hamburger */}
           <Hamburger
             hamburgerClick={hamburgerClick}

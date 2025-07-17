@@ -1,4 +1,4 @@
-import List from "../components/List.jsx";
+import List from "../components/SidebarList.jsx";
 
 export default function DesktopSidebar({ isOpen, tools }) {
   return (

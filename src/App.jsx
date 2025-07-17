@@ -47,11 +47,12 @@ export default function App() {
         isOpen={isOpen}
         tools={tools}
       />
-      <div className="flex mx-auto max-w-7xl h-screen pt-18 md:pt-24">
+      <div className="flex mx-auto max-w-7xl h-screen pt-18 md:pt-24 md:pl-6">
         <DesktopSidebar isOpen={isOpen} tools={tools} />
         <MainContent tools={tools} />
       </div>
       <BottomNav />
+      
     </>
   );
 }

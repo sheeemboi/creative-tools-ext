@@ -1,22 +1,27 @@
 [
   {
     "name": "Palette Generator",
+    "desc": "Generate color combinations.",
     "path": ""
   },
   {
     "name": "Lorem Ipsum Generator",
+    "desc": "Lorem ipsum dolor sit amet, consectetur.",
     "path": ""
   },
   {
     "name": "Color Converter",
+    "desc": "Pick and convert colors between different formats.",
     "path": ""
   },
   {
     "name": "Font Pairing Generator",
+    "desc": "Generate font combinations.",
     "path": ""
   },
   {
     "name": "Aspect Ratio Calculator",
+    "desc": "Calculate your canvas' aspect ratio.",
     "path": ""
   }
 ]

@@ -1,5 +1,5 @@
-import Hamburger from "../components/ui/Hamburger";
-import List from "../components/List";
+import Hamburger from "../components/Hamburger";
+import List from "../components/SidebarList";
 
 export default function MobileSidebar({ hamburgerClick, isOpen, tools }) {
   return (
