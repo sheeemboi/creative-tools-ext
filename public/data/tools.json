@@ -2,26 +2,36 @@
   {
     "name": "Palette Generator",
     "desc": "Generate color combinations.",
+    "library": "fa6",
+    "icon": "FaPalette",
     "path": ""
   },
   {
     "name": "Lorem Ipsum Generator",
     "desc": "Lorem ipsum dolor sit amet, consectetur.",
+    "library": "pi",
+    "icon": "PiTextAa",
     "path": ""
   },
   {
     "name": "Color Converter",
     "desc": "Pick and convert colors between different formats.",
+    "library": "fa6",
+    "icon": "FaHashtag",
     "path": ""
   },
   {
     "name": "Font Pairing Generator",
     "desc": "Generate font combinations.",
+    "library": "fa6",
+    "icon": "FaFont",
     "path": ""
   },
   {
     "name": "Aspect Ratio Calculator",
     "desc": "Calculate your canvas' aspect ratio.",
+    "library": "md",
+    "icon": "MdAspectRatio",
     "path": ""
   }
 ]
