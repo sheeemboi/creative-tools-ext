@@ -7,6 +7,10 @@
 
 </script>
 <svelte:window bind:innerWidth={windowWidth}/>
+<svelte:head>
+  <title>desyn-tools</title>
+  <meta name="desyn-tools is a toolset site for all your graphic design projects.">
+</svelte:head>
 <div class="relative bg-gray-100 dark:bg-gray-800 w-full min-h-screen">
   <Sidebar {isSidebarOpen} on:click={() => (isSidebarOpen = !isSidebarOpen)}
   ></Sidebar>
