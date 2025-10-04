@@ -17,6 +17,6 @@ Props:
   ```
 -->
 <section class={className}>
-  <Heading>{header}</Heading>
-  <P>{description}</P>
+  <Heading class="text-center">{header}</Heading>
+  <P align="center">{description}</P>
 </section>

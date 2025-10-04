@@ -1,10 +1,12 @@
 <script lang="ts">
   import { Radio } from "flowbite-svelte";
   import { ArrowRightOutline } from "flowbite-svelte-icons";
-
+  import { createEventDispatcher } from "svelte";
   export let name: string;
   export let value: any;
   export let group: any;
+
+  const dispatch = createEventDispatcher();
 </script>
 
 <!--
@@ -19,7 +21,7 @@ export let value: any;
 export let group: any; // just a variable to store the current selected value
 ```
 -->
-<Radio id={`${value}-${group}-${name}`} {name} bind:group {value} custom>
+<Radio id={`${value}-${group}-${name}`} {name} bind:group {value} custom on:change={() => dispatch("change")}>
   <div
     class={`dark:peer-checked:text-primary-500 peer-checked:border-primary-600 peer-checked:text-primary-600 peer-checked:font-bold
     inline-flex min-w-24 cursor-pointer items-center justify-between rounded-lg 
